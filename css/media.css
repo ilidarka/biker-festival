@@ -1,0 +1,54 @@
+@media (max-width: 1100px) {
+    main {
+        padding: 20px;
+    }
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+    .left-column .adres {
+        display: none;
+    }
+    .right-column .adres {
+        margin-top: 20px;
+        display: flex;
+    }
+    .right-column .adres span {
+        width: 100%;
+    }
+    .party-link, .dev-logo, .timer {
+        margin-top: 30px;
+    }
+    h1 {
+        margin-top: 30px;
+    }
+    .dev-logo {
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    .timer #days, .timer #hours, .timer #minutes, .timer #seconds {
+        font-size: 24px;
+    }
+    .timer ul {
+        gap: 10px;
+    }
+    .timer li {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .date-container span, .adres span {
+        font-size: 16px;
+    }
+    h1, .date span {
+        font-size: 24px;
+    }
+    h1 {
+        background-size: 10rem;
+        background-position-x: 10rem;
+        background-position-y: center;
+    }
+}
